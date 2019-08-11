@@ -1,0 +1,10 @@
+http://www.korenlc.com/node-js-tutorial-getting-started-with-node-express-and-mongodb/
+express <nodeapp> //creates node app
+npm install //starts package
+localhost:3000/ //then visit this address
+sudo service mongod start //to start mongo server
+you need use 
+mongod --dbpath /Users/korenlcohen/NodeExpressApp/database
+pwd 
+To use the database and create one
+Else if nothing it adds new database

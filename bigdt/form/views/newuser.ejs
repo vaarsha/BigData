@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include sub/head %>
+     <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Donegal+One" rel="stylesheet">
+    <link href="stylesheets/nusers.css" rel="stylesheet">
+  </head>
+  <body>
+    <% include sub/nav %>
+    <h1><%= title %></h1>
+    <form name="newuser" method="post" action="/createuser">
+	    <label>Name </label>
+	    <input type="text" name="username"><br>
+	    <label>Roll No. </label>
+	    <input type="text" name="rollno"><br>
+	    <label>Branch </label>
+	    <input type="text" name="branch"><br>
+	    <label>Age </label>
+	    <input type="text" name="age"><br>
+	    <input type="submit" value="Add User">
+	    <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

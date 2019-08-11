@@ -1,0 +1,30 @@
+body{
+	background-color: #EDEFE0;
+	
+}
+h1{
+	font-family: 'Eagle Lake', cursive;
+}
+ul{
+	padding: 10px;
+	margin: 60px 515px;
+	width: 200px;
+	border: 3px double;
+	list-style-type: none;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 28px;
+}
+a:hover {
+    font-style: italic;
+    font-size: 18px;
+    color: #5d5252;
+    font-family: 'Lemonada', cursive;
+}
+h1{
+	text-align: center;
+}

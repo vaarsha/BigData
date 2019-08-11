@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+ 
+    <% include sub/head %>
+    <link href="stylesheets/users.css" rel="stylesheet"> 
+  </head>
+  <body>
+ 
+    <% include sub/nav %>
+ 
+    <h1><%= title %></h1>
+ 
+    <table>
+      <tr>
+        <th>Name</th>
+        <th> Roll No.</th>
+        <th> Branch</th>
+        <th> Age</th>
+      </tr>
+      <% users.forEach(function(user) { %>
+        <tr>
+        <td><%= user.name %></td>
+        <td><%= user.rollno %></td>
+        <td><%= user.branch %></td>
+        <td><%= user.age %></td>
+        </tr>
+      <% }); %>
+    </table>
+ 
+  </body>
+</html>

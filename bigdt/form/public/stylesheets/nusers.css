@@ -1,0 +1,33 @@
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 16px;
+}
+input[type=submit], input[type=reset]{
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black; 
+    font-weight: bold;
+}
+input[type=reset]{
+	width:9%;
+}
+label {
+    display: block;
+    width: 270px;
+    text-align: left;
+    font-family: 'Donegal One', serif;
+    font-size:20px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    font-size: 20px;
+}

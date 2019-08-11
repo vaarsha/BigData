@@ -1,0 +1,13 @@
+label{
+	display: block;
+        text-align: left;
+	font-family: 'Rozha One', serif;
+	font-size: 17px;
+}
+input[type=submit]{
+	margin: 8px 0;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+}

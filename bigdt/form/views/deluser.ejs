@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include sub/head %>
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet"> 
+    <link href="stylesheets/delusers.css" rel="stylesheet">
+  </head>
+  <body>
+    <% include sub/nav %>
+    <h1><%= title %></h1>
+    <form name="newuser" method="post" action="/duser">
+	    <label>Enter Your Roll Number</label>
+	    <input type="text" name="rollno"><br>
+	    <input type="submit" value="Delete">
+    </form>
+  </body>
+</html>
